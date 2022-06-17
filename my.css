@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #000080;
+    width: 1440px;
+    min-height: 100vh;
+  }
+  main {
+    display: grid;
+    grid-template-areas:
+      "a a b"
+      "c d d"
+      "c e e";
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+    height:50px;
+    margin-top: 10%;
+    margin-bottom: 90%;
+  }
+  main div {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .item-a {
+    background-color: rgb(255, 51, 0);
+    grid-area: a;
+    color: rgb(255, 51, 0);
+  }
+  .item-b {
+    background-color: #ff9900;
+    grid-area: b;
+    color: #ff9900;
+  }
+  .item-c {
+    background-color: #009933;
+    grid-area: c;
+    color: #009933;
+  }
+  .item-d {
+    background-color: #1a8cff;
+    grid-area: d;
+    color: #1a8cff;
+  }
+  .item-e {
+    background-color: #1a8cff;
+    grid-area: e;
+    color: #1a8cff;
+  }
+  

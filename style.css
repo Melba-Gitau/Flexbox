@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 1440px;
+    font-weight: 400;
+    justify-content: center;
+    
+  }
+  p {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  main {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 10%;
+    margin-bottom: 90%;
+    margin-left:20%;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 3em;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+  .first {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5em;
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .second {
+    background-color: hsl(184, 100%, 22%);
+    padding:2em;
+    width: 100%;
+    font-size: 15px;
+  }
+  .third {
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+    font-size: 15px;
+    padding: 2em;
+  }
+  
+  .button1{
+    font-size: 15px;
+    margin-left: 2em;
+    color: hsl(31, 77%, 52%);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+    background-color:white;
+  }
+  .button2{
+    font-size: 15px;
+    margin-left: 2em;
+    color:hsl(184, 100%, 22%); 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+    background-color:white;
+  }
+  
+  .button3{
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-left: 3em;
+    color:  hsl(179, 100%, 13%);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color:white;
+  }
+a{
+  font-size: 15px;
+    padding-bottom: 20px;
+    margin-left: 3em;
+    color:  hsl(180, 23%, 94%);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 60%;
+    display: inline-block;
+    background-color:rgb(57, 101, 143);
+    Text-align:center;
+}
+    
+  
+  
+   
+  
+  
+    
